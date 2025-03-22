@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
-import Home from "./pages/Home";
-import CartPage from "./pages/CartPage";
-import ProductPage from "./pages/ProductPage";
+import Home from "./Pages/Home";
+import CartPage from "./Pages/CartPage";
+import ProductPage from "./Pages/ProductPage";
 
 function MainRouter() {
   return (
