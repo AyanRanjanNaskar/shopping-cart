@@ -1,16 +1,13 @@
 import React from 'react'
 
-export function Cartlists(props) {
+function Cartlists(props) {
     const {cart} = props
-
-    
-
     return (
         <div>
             {
                 cart.map((cartItem , cartIndex) => {
                     return(
-                        <div className='flex gap-[2vw] m-[3vw] items-center '>
+                        <div className='flex gap-[2vw] m-[3vw] items-center' key={cartIndex}>
                             <img src={cartItem.img}
                             className='w-[10vw] rounded-lg' alt="" />
                             <p className='font-bold min-w-[8vw]'>{cartItem.name} </p>
@@ -23,3 +20,5 @@ export function Cartlists(props) {
         </div>
     )
 }
+
+export default Cartlists;

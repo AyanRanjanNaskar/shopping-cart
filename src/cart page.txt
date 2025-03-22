@@ -1,0 +1,7 @@
+cart page
+add cart page to router 
+create context 
+wrape router with context
+move the cart logic to the context 
+reuse the context data to all pages
+do the same for product page also 
